@@ -21,6 +21,7 @@ namespace MyShop.WebUI.Controllers
             context = productContext;
             productCategories = productCategoryContext;
         }
+
         // GET: ProductManager
         public ActionResult Index()
         {
